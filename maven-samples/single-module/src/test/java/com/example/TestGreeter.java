@@ -27,12 +27,7 @@ public class TestGreeter {
     assertThat(greeter.greet(someone), containsString(someone));
   }
 
-   @Test
-  public void intentional_failure(){
-    assertTrue(true);
-  }
   
-
   @Test
   public void greetShouldIncludeGreetingPhrase() {
     String someone = "World";
